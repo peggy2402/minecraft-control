@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Minecraft Server Control - Premium</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00ff99;
+            --secondary: #ffaa00;
+            --danger: #ff5555;
+            --success: #28a745;
+            --info: #00bfff;
+            --dark: #0a0a0a;
+            --darker: #050505;
+            --card-bg: rgba(15, 15, 15, 0.8);
+            --glow: 0 0 10px rgba(0, 255, 153, 0.5);
+            --glow-hover: 0 0 15px rgba(0, 255, 153, 0.8);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--darker), var(--dark));
+            color: #fff;
+            font-family: 'Ubuntu Mono', monospace;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(0, 255, 153, 0.1) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(255, 170, 0, 0.1) 0%, transparent 20%);
+        }
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjMDUwNTA1Ii8+CiAgPHBhdGggZD0iTTAgMEg1MFY1MEgweiIgc3Ryb2tlPSIjMTAxMDEwIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiLz4KPC9zdmc+');
+            opacity: 0.8;
+            z-index: -1;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            padding: 25px 0;
+            background: rgba(15, 15, 15, 0.7);
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--glow);
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            border-radius: 0 0 15px 15px;
+        }
+        
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+            animation: scanline 4s linear infinite;
+        }
+        
+        @keyframes scanline {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7), var(--glow);
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--info));
+        }
+        
+        .card-title {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .card-title i {
+            color: var(--primary);
+        }
+        
+        .controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        button {
+            padding: 14px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            min-width: 180px;
+            justify-content: center;
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: 0.5s;
+        }
+        
+        button:hover::before {
+            left: 100%;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), var(--glow-hover);
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        
+        .start {
+            background: linear-gradient(135deg, var(--success), #1e7e34);
+            color: white;
+        }
+        
+        .stop {
+            background: linear-gradient(135deg, var(--danger), #bd2130);
+            color: white;
+        }
+        
+        .status-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 100%;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .status-item {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .status-icon {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--danger);
+            display: inline-block;
+            margin-right: 8px;
+            box-shadow: 0 0 8px var(--danger);
+        }
+        
+        .status-icon.active {
+            background-color: var(--success);
+            box-shadow: 0 0 8px var(--success);
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .ip-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 255, 153, 0.3);
+        }
+        
+        .copy-btn {
+            padding: 6px 12px;
+            background: rgba(0, 191, 255, 0.2);
+            border: 1px solid var(--info);
+            border-radius: 6px;
+            color: var(--info);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        
+        .copy-btn:hover {
+            background: rgba(0, 191, 255, 0.4);
+        }
+        
+        #log-box {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: left;
+            font-family: 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            height: 400px;
+            overflow-y: scroll;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 255, 153, 0.3);
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        
+        #log-box::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        #log-box::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+        }
+        
+        #log-box::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+        
+        .log-info { color: var(--primary); }
+        .log-warn { color: var(--secondary); }
+        .log-error { color: var(--danger); }
+        
+        .cmd-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        input {
+            padding: 12px 15px;
+            font-size: 16px;
+            flex: 1;
+            border-radius: 8px;
+            border: none;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+        }
+        
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+        
+        #send-btn {
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            background: linear-gradient(135deg, var(--info), #0062cc);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .button-group {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            button {
+                width: 100%;
+            }
+            
+            .cmd-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <i class="fas fa-server"></i> MINECRAFT SERVER CONTROL PANEL
+        </header>
+        
+        <div class="card">
+            <div class="card-title"><i class="fas fa-cogs"></i> Server Controls</div>
+            
+            <div class="controls">
+                <div class="button-group">
+                    <button class="start" onclick="startServer()">
+                        <i class="fas fa-play"></i> Start Server
+                    </button>
+                    <button class="stop" onclick="stopServer()">
+                        <i class="fas fa-stop"></i> Stop Server
+                    </button>
+                </div>
+                
+                <div class="status-container">
+                    <div class="status-item">
+                        <span class="status-icon"></span>
+                        <span id="status">Trạng thái: ⏹ Đang tắt</span>
+                    </div>
+                    
+                    <div class="status-item">
+                        <i class="fas fa-globe-americas"></i>
+                        <div class="ip-container">
+                            <span id="public-ip">🌍 Domain: Đang chờ...</span>
+                            <button class="copy-btn" onclick="copyIP()">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-title"><i class="fas fa-terminal"></i> Server Console</div>
+            
+            <div id="log-box"></div>
+            
+            <div class="cmd-container">
+                <input type="text" id="command" placeholder="Nhập lệnh Minecraft (vd: /gamemode creative Notch)..." onkeydown="if(event.key==='Enter'){sendCommand();}">
+                <button id="send-btn" onclick="sendCommand()">
+                    <i class="fas fa-paper-plane"></i> Gửi Lệnh
+                </button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Minecraft Server Control Panel v2.0 • Powered by DeepSeek-R1</p>
+            <p>© 2023 All rights reserved</p>
+        </footer>
+    </div>
+
+    <script>
+        let ipInterval;
+        function fetchPublicIP() {
+            fetch('/public-ip').then(res => res.json()).then(data => {
+                document.getElementById('public-ip').innerText = "🌍 Domain: " + data.ip;
+            });
+        }
+        
+        function startServer() {
+            fetch('/start-server').then(res => res.text()).then(data => {
+                document.getElementById('status').innerText = "Trạng thái: " + data;
+                ipInterval = setInterval(fetchPublicIP, 3000);
+                
+                // Cập nhật trạng thái
+                document.querySelector('.status-icon').classList.add('active');
+            });
+        }
+        
+        function stopServer() {
+            fetch('/stop-server').then(res => res.text()).then(data => {
+                document.getElementById('status').innerText = "Trạng thái: " + data;
+                clearInterval(ipInterval);
+                
+                // Cập nhật trạng thái
+                document.querySelector('.status-icon').classList.remove('active');
+            });
+        }
+        
+        function sendCommand() {
+            const cmd = document.getElementById('command').value;
+            if (!cmd.trim()) return;
+            
+            fetch('/command', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ cmd })
+            }).then(res => res.text()).then(msg => {
+                Swal.fire({
+                    title: 'Lệnh đã gửi',
+                    text: msg,
+                    icon: 'success',
+                    confirmButtonText: 'OK',
+                    timer: 2000
+                });
+            }).catch(err => {
+                Swal.fire({
+                    title: 'Lỗi',
+                    text: 'Không thể gửi lệnh: ' + err,
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                });
+            });
+            
+            // Thêm lệnh vào log để người dùng thấy
+            const logBox = document.getElementById('log-box');
+            const cmdLog = document.createElement('div');
+            cmdLog.className = 'log-info';
+            cmdLog.innerHTML = `[CMD] > ${cmd}`;
+            logBox.appendChild(cmdLog);
+            logBox.scrollTop = logBox.scrollHeight;
+            
+            // Xóa nội dung input
+            document.getElementById('command').value = '';
+        }
+        
+        // Thêm chức năng copy IP
+        function copyIP() {
+            const ipElement = document.getElementById('public-ip');
+            let ip = ipElement.textContent;
+            
+            // Loại bỏ biểu tượng và nhãn nếu có
+            ip = ip.replace('🌍 Domain: ', '');
+            
+            // Chỉ sao chép nếu có IP hợp lệ
+            if (ip && ip !== 'Đang chờ...') {
+                navigator.clipboard.writeText(ip).then(() => {
+                    Swal.fire({
+                        title: 'Đã sao chép!',
+                        text: `Domain "${ip}" đã được sao chép`,
+                        icon: 'success',
+                        confirmButtonText: 'OK',
+                        timer: 1500
+                    });
+                });
+            } else {
+                Swal.fire({
+                    title: 'Không có dữ liệu',
+                    text: 'Chưa có domain để sao chép',
+                    icon: 'info',
+                    confirmButtonText: 'OK',
+                    timer: 1500
+                });
+            }
+        }
+        
+        // Giữ nguyên SSE log từ server
+        const evtSource = new EventSource('/logs');
+        evtSource.onmessage = function (event) {
+            const logs = JSON.parse(event.data);
+            const logBox = document.getElementById('log-box');
+            logBox.innerHTML = logs.map(line => {
+                if (line.includes('ERROR')) return `<div class='log-error'>${line}</div>`;
+                if (line.includes('WARN')) return `<div class='log-warn'>${line}</div>`;
+                return `<div class='log-info'>${line}</div>`;
+            }).join("");
+            logBox.scrollTop = logBox.scrollHeight;
+        };
+        
+        // Khởi tạo trạng thái ban đầu
+        document.addEventListener('DOMContentLoaded', function() {
+            // Thêm log khởi động
+            const logBox = document.getElementById('log-box');
+            const initLog = document.createElement('div');
+            initLog.className = 'log-info';
+            initLog.innerHTML = '[INFO] Control panel initialized. Ready to start server.';
+            logBox.appendChild(initLog);
+        });
+    </script>
+</body>
+</html>
