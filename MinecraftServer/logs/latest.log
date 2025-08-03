@@ -1,1104 +1,128 @@
-[19:37:04] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[19:37:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) for Minecraft 1.21.8
-[19:37:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:37:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\GriefPrevention.jar'...
-[19:37:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GriefPrevention.jar' in 519ms.
-[19:37:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[19:37:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - AutoSaveWorld (4.15), GriefPrevention (16.18.4)
-[19:37:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:37:14] [ServerMain/INFO]: Loaded 1407 recipes
-[19:37:14] [ServerMain/INFO]: Loaded 1520 advancements
-[19:37:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:37:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 679.8ms
-[19:37:15] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[19:37:15] [Server thread/INFO]: Loading properties
-[19:37:15] [Server thread/INFO]: This server is running Paper version 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[19:37:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:37:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:37:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:37:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[19:37:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:37:17] [Server thread/INFO]: Default game type: SURVIVAL
-[19:37:17] [Server thread/INFO]: Generating keypair
-[19:37:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:37:17] [Server thread/INFO]: Using default channel type
-[19:37:17] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:37:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:37:18] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:37:30] [Server thread/WARN]: Legacy plugin AutoSaveWorld v4.15 does not specify an api-version.
-[19:37:31] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[19:37:31] [Server thread/INFO]: [AutoSaveWorld] Loading server plugin AutoSaveWorld v4.15
-[19:37:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:37:31] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15*
-[19:37:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:37:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:37:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:37:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:37:31] [Server thread/INFO]: Preparing level "world"
-[19:37:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:37:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:37:33] [Server thread/INFO]: Preparing spawn area: 0%
-[19:37:33] [Server thread/INFO]: Preparing spawn area: 0%
-[19:37:33] [Server thread/INFO]: Time elapsed: 1392 ms
-[19:37:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:37:33] [Server thread/INFO]: Preparing spawn area: 0%
-[19:37:34] [Server thread/INFO]: Time elapsed: 373 ms
-[19:37:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:37:34] [Server thread/INFO]: Preparing spawn area: 0%
-[19:37:34] [Server thread/INFO]: Time elapsed: 187 ms
-[19:37:34] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[19:37:34] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[19:37:34] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[19:37:34] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[19:37:34] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[19:37:35] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[19:37:35] [Server thread/INFO]: [spark] Starting background profiler...
-[19:37:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[19:37:35] [Server thread/INFO]: Done preparing level "world" (4.194s)
-[19:37:35] [Server thread/INFO]: Running delayed init tasks
-[19:37:35] [Server thread/INFO]: Done (32.288s)! For help, type "help"
-[19:37:44] [User Authenticator #0/INFO]: UUID of player peggy is 36956e1f-941a-3508-a95a-d4316cbe8213
-[19:37:44] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
-[19:37:46] [Server thread/INFO]: peggy joined the game
-[19:37:47] [Server thread/INFO]: peggy[/127.14.49.221:61579] logged in with entity id 103 at ([world]-968.295378577944, 73.0, 72.86029010392416)
-[19:40:31] [Server thread/INFO]: peggy issued server command: /claimslist
-[19:41:01] [Server thread/INFO]: peggy issued server command: /adminclaims
-[19:41:05] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-942, z75.
-[19:41:08] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z60.
-[19:41:09] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-943, z67.
-[19:41:10] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:10] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:12] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:12] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:12] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:41:15] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:19] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:19] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:19] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:21] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:21] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:41:26] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:27] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:41:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:42:35] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[19:42:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:47:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
+[13:47:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) for Minecraft 1.21.8
+[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - AutoSaveWorld (4.15), GriefPrevention (16.18.4), voicechat (2.5.35)
+[13:47:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:47:48] [ServerMain/INFO]: Loaded 1407 recipes
+[13:47:48] [ServerMain/INFO]: Loaded 1520 advancements
+[13:47:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:47:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 650.0ms
+[13:47:49] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[13:47:49] [Server thread/INFO]: Loading properties
+[13:47:49] [Server thread/INFO]: This server is running Paper version 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[13:47:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:47:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:47:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:47:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[13:47:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:47:51] [Server thread/INFO]: Default game type: SURVIVAL
+[13:47:51] [Server thread/INFO]: Generating keypair
+[13:47:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:47:51] [Server thread/INFO]: Using default channel type
+[13:47:51] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:47:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:47:51] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:48:04] [Server thread/WARN]: Legacy plugin AutoSaveWorld v4.15 does not specify an api-version.
+[13:48:04] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[13:48:04] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[13:48:04] [Server thread/INFO]: [AutoSaveWorld] Loading server plugin AutoSaveWorld v4.15
+[13:48:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:48:04] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15*
+[13:48:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:48:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:48:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:48:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:48:04] [Server thread/INFO]: Preparing level "world"
+[13:48:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
+[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
+[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
+[13:48:07] [Server thread/INFO]: Time elapsed: 1519 ms
+[13:48:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:48:07] [Server thread/INFO]: Preparing spawn area: 0%
+[13:48:07] [Server thread/INFO]: Time elapsed: 326 ms
+[13:48:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:48:07] [Server thread/INFO]: Preparing spawn area: 0%
+[13:48:07] [Server thread/INFO]: Time elapsed: 220 ms
+[13:48:07] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[13:48:07] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[13:48:08] [Server thread/INFO]: [voicechat] Compatibility version 18
+[13:48:08] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:48:08] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[13:48:08] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[13:48:08] [Server thread/INFO]: [GriefPrevention] 7 total claims loaded.
+[13:48:08] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[13:48:09] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[13:48:09] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[13:48:09] [Server thread/INFO]: [spark] Starting background profiler...
+[13:48:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:48:10] [Server thread/INFO]: Done preparing level "world" (5.656s)
+[13:48:10] [Server thread/INFO]: Running delayed init tasks
+[13:48:10] [Server thread/INFO]: Done (29.714s)! For help, type "help"
+[13:48:10] [Server thread/INFO]: [voicechat] Loading plugins
+[13:48:10] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:48:10] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:48:10] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:48:10] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:48:10] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'started-pf.gl.at.ply.gg:49546'
+[13:48:10] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[13:48:17] [User Authenticator #0/INFO]: UUID of player peggy is 36956e1f-941a-3508-a95a-d4316cbe8213
+[13:48:17] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
+[13:48:20] [Server thread/INFO]: peggy joined the game
+[13:48:20] [Server thread/INFO]: peggy[/127.14.49.221:53294] logged in with entity id 128 at ([world]-946.4444429813562, 92.90192224307691, 38.98884963669088)
+[13:48:20] [Server thread/INFO]: [voicechat] Received secret request of peggy (18)
+[13:48:20] [Server thread/INFO]: [voicechat] Sent secret to peggy
+[13:48:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 36956e1f-941a-3508-a95a-d4316cbe8213
+[13:48:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 36956e1f-941a-3508-a95a-d4316cbe8213
+[13:48:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player peggy (36956e1f-941a-3508-a95a-d4316cbe8213) successfully connected to voice chat
+[13:53:07] [AutoSaveWorld AutoSaveThread/INFO]: Đang tự động lưu
+[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:42:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:42:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:42:35] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[19:44:44] [Server thread/INFO]: peggy issued server command: /acball
-[19:44:53] [Server thread/INFO]: peggy issued server command: /acball 100
-[19:44:53] [Server thread/INFO]: [GriefPrevention] Adjusted all 1players' bonus claim blocks by 100.  peggy 
-[19:45:34] [Server thread/INFO]: peggy issued server command: /gamemode
-[19:45:39] [Server thread/INFO]: peggy issued server command: /gamemode survival
-[19:45:39] [Server thread/INFO]: [peggy: Set own game mode to Survival Mode]
-[19:46:18] [Server thread/INFO]: peggy issued server command: /gamemode creative
-[19:46:18] [Server thread/INFO]: [peggy: Set own game mode to Creative Mode]
-[19:47:39] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[19:47:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:53:07] [AutoSaveWorld AutoSaveThread/INFO]: Hoàn thành tự động lưu
+[13:54:23] [Server thread/INFO]: peggy issued server command: /voicechat test
+[13:54:31] [Server thread/INFO]: peggy issued server command: /voicechat test
+[13:54:45] [Server thread/INFO]: peggy issued server command: /voicechat help
+[13:58:11] [AutoSaveWorld AutoSaveThread/INFO]: Đang tự động lưu
+[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:47:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:47:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
 java.lang.RuntimeException: Can't find method saveLevel with params length 0
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
 	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:47:39] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[19:51:31] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:52:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:52:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:52:26] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:52:43] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[19:52:43] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:52:43] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:52:43] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:52:43] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[19:55:38] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:55:39] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:56:30] [Server thread/INFO]: peggy issued server command: /gamemode survival
-[19:56:30] [Server thread/INFO]: [peggy: Set own game mode to Survival Mode]
-[19:56:41] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[19:56:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:56:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:56:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:56:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[19:56:46] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z61.
-[19:56:53] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z61.
-[19:57:47] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[19:57:47] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:57:47] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:57:47] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[19:57:47] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[19:58:03] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z59.
-[19:58:08] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:31] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:32] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:33] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:34] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:37] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:58:37] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[19:59:55] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-949, z58.
-[20:00:20] [Server thread/INFO]: peggy issued server command: /gamemode creative
-[20:00:20] [Server thread/INFO]: [peggy: Set own game mode to Creative Mode]
-[20:02:02] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:02:51] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:02:51] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:02:51] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:02:51] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:02:51] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:03:32] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:03:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:03:36] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-948, z58.
-[20:03:39] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-950, z58.
-[20:03:43] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 3
-[20:03:45] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-950, z58.
-[20:03:48] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-950, z58.
-[20:03:51] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-950, z58.
-[20:03:56] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-950, z58.
-[20:04:05] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:11] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:12] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z58.
-[20:04:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:21] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 0
-[20:04:22] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z58.
-[20:04:27] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-945, z58.
-[20:04:29] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-945, z58.
-[20:04:30] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z58.
-[20:04:33] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-951, z58.
-[20:07:55] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:07:55] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:07:55] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:07:55] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:07:55] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:10:09] [Server thread/INFO]: peggy issued server command: /adjustbonusclaimblocks
-[20:10:24] [Server thread/INFO]: peggy issued server command: /adjustbonusclaimblocks peggy 1000
-[20:10:24] [Server thread/INFO]: [GriefPrevention] peggy adjusted peggy's bonus claim blocks by 1000.
-[20:10:51] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 1
-[20:11:06] [Server thread/INFO]: peggy issued server command: /abandonallclaims
-[20:11:20] [Server thread/INFO]: peggy issued server command: /abandonallclaims
-[20:11:28] [Server thread/INFO]: peggy issued server command: /abandonallclaims confirm
-[20:11:53] [Server thread/INFO]: peggy issued server command: /abandonallclaims
-[20:11:57] [Server thread/INFO]: peggy issued server command: /abandonallclaims confirm
-[20:12:06] [Server thread/INFO]: peggy issued server command: /unclaim
-[20:12:59] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:12:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:12:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:12:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:12:59] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:13:17] [Server thread/INFO]: [GriefPrevention] peggy resized an administrator's claim at world: x-943, z67.
-[20:13:40] [Server thread/INFO]: peggy issued server command: /abandonallclaims
-[20:13:44] [Server thread/INFO]: peggy issued server command: /abandonallclaims confirm
-[20:13:55] [Server thread/INFO]: peggy issued server command: /adjustbonusclaimblocks peggy 2000
-[20:13:55] [Server thread/INFO]: [GriefPrevention] peggy adjusted peggy's bonus claim blocks by 2000.
-[20:16:08] [Server thread/INFO]: peggy issued server command: /abandonclaim
-[20:17:01] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:17:02] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:17:03] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:17:04] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:17:04] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:18:02] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:18:02] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:18:02] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:18:02] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:18:02] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:18:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:18:58] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:18:58] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:07] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:55] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:56] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:56] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:56] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:57] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:57] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:57] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:57] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:19:58] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:20:00] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:20:01] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:20:08] [User Authenticator #1/INFO]: UUID of player ggmrbeast is 4c4d312c-1f9c-3160-9fc6-875e304370b1
-[20:20:09] [Server thread/INFO]: ggmrbeast joined the game
-[20:20:09] [Server thread/INFO]: ggmrbeast[/127.228.4.232:62687] logged in with entity id 4248 at ([world]-970.7189374005268, 77.01286198082252, 66.71242229956937)
-[20:20:15] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> lo
-[20:20:27] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> gi
-[20:20:57] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> dang o che do j v
-[20:21:04] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> creative
-[20:21:53] [Server thread/INFO]: peggy issued server command: /tp ggmrbeast peggy
-[20:21:53] [Server thread/INFO]: [peggy: Teleported ggmrbeast to peggy]
-[20:22:03] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> dap thu cai cot nay xem
-[20:22:09] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> alo
-[20:22:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> cai naoi
-[20:22:14] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> dap thu cot nay xem dc k
-[20:22:15] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> k dc
-[20:22:29] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> that k ?
-[20:22:33] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> nhin ne
-[20:22:34] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> k thay a`
-[20:22:52] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> t dat block cx k dc
-[20:22:59] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> ok
-[20:23:03] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:23:03] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:23:03] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:23:03] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:23:03] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:23:06] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> TNT xem
-[20:23:17] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> k dc lun
-[20:23:25] [Async Chat Thread - #0/INFO]: [Not Secure] <ggmrbeast> doi ti
-[20:23:37] [Async Chat Thread - #0/INFO]: [Not Secure] <peggy> ok
-[20:25:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:25:54] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:25:54] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:25:55] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:25:55] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:25:56] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 5
-[20:27:22] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 5
-[20:27:23] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 5
-[20:27:24] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 5
-[20:28:04] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:28:05] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:28:05] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:28:05] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:28:05] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:28:19] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 5
-[20:29:34] [Server thread/INFO]: peggy issued server command: /gamemode survival peggy
-[20:29:34] [Server thread/INFO]: [peggy: Set own game mode to Survival Mode]
-[20:30:48] [Server thread/INFO]: peggy issued server command: /gamemode creative
-[20:30:48] [Server thread/INFO]: [peggy: Set own game mode to Creative Mode]
-[20:32:03] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> alo\
-[20:32:08] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> jk
-[20:32:10] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> j
-[20:32:16] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> ket
-[20:32:26] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> k mo cua d
-[20:32:29] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> dc*
-[20:32:50] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> de t xay cai nha ben day
-[20:32:59] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> ra cho khac xem xay dc ko
-[20:33:06] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:33:06] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:33:06] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:33:06] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:33:06] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:33:06] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> cho khac thi dc
-[20:33:26] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> alo
-[20:33:31] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> ra day xem pha dc k
-[20:33:36] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> chac nha nay m ca`i ca'i lenh gi de k bi pha nha r
-[20:33:42] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> dc
-[20:33:55] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> day
-[20:33:57] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> ko cai`
-[20:33:59] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> cai lenh claim ay
-[20:34:10] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> dung xeng vang
-[20:34:12] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> kieu no se bao ve cai manh dat cua a
-[20:34:26] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> droi
-[20:34:34] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> clam blocks
-[20:34:37] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> claim
-[20:34:43] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> xong roi set pham vi
-[20:35:06] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> dung xeng vang de set pham vi
-[20:35:07] [Server thread/INFO]: ggmrbeast issued server command: /unclaim
-[20:35:22] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> dùng gậy để kiểm tra xem ai đã sở hữu
-[20:36:09] [Server thread/INFO]: ggmrbeast issued server command: /unclaim
-[20:36:17] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims
-[20:36:30] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims confirm
-[20:36:39] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> thay j k
-[20:36:42] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> sao cai range no thap v =))
-[20:37:02] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> a lam cai pham vi to ra dc k
-[20:37:02] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> go abandonclaim de xoa' manh dat bao ve
-[20:37:08] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims
-[20:37:14] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims confirm
-[20:37:19] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> dc chua
-[20:37:36] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> ma m k set pham vi dc a`
-[20:37:39] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> dc
-[20:37:43] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> tu set di
-[20:37:45] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> y la
-[20:37:50] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> set cai cho th
-[20:37:52] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> con pham vi thi k
-[20:38:05] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> toi da 1 block :v
-[20:38:07] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:38:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:38:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:38:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:38:07] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:38:08] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> 100
-[20:38:09] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> t set sao m dung` xay nha dc =))
-[20:38:19] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> de t tang
-[20:38:26] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> tam 1028 hay them di
-[20:38:33] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> 10 x 100 = 1000
-[20:38:37] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims confirm
-[20:38:46] [Server thread/INFO]: peggy issued server command: /adjustbonusclaimblocks ggmrbeast 2000
-[20:38:46] [Server thread/INFO]: [GriefPrevention] peggy adjusted ggmrbeast's bonus claim blocks by 2000.
-[20:38:49] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> cho 2000
-[20:39:01] [Server thread/INFO]: peggy issued server command: /abandonallclaims
-[20:39:06] [Server thread/INFO]: peggy issued server command: /abandonallclaims confirm
-[20:39:33] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> server khac no tinh tien m
-[20:39:34] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> ok r
-[20:39:40] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> =)))
-[20:39:49] [Server thread/INFO]: ggmrbeast issued server command: /comfirm
-[20:40:13] [Async Chat Thread - #4/INFO]: [Not Secure] <peggy> rong vc vay
-[20:40:18] [Async Chat Thread - #4/INFO]: [Not Secure] <ggmrbeast> :>
-[20:40:35] [Server thread/INFO]: ggmrbeast issued server command: /clear
-[20:41:07] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims
-[20:41:13] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims confirm
-[20:41:25] [Server thread/INFO]: ggmrbeast issued server command: /abandonallclaims confirm
-[20:41:28] [Async Chat Thread - #6/INFO]: [Not Secure] <peggy> lai be' r
-[20:41:40] [Async Chat Thread - #6/INFO]: [Not Secure] <ggmrbeast> dc r
-[20:42:43] [Async Chat Thread - #8/INFO]: [Not Secure] <peggy> 20x23 = 460 claims
-[20:42:47] [Async Chat Thread - #8/INFO]: [Not Secure] <peggy> rong ra nua di
-[20:43:08] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:43:09] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:43:09] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:43:09] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:43:09] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:43:49] [Async Chat Thread - #10/INFO]: [Not Secure] <ggmrbeast> nhieu do du r
-[20:44:24] [Server thread/INFO]: peggy issued server command: /time set day
-[20:44:24] [Server thread/INFO]: [peggy: Set the time to 1000]
-[20:44:32] [Server thread/INFO]: peggy issued server command: /time set nigh
-[20:44:35] [Async Chat Thread - #10/INFO]: [Not Secure] <peggy> ggmrbeast
-[20:44:42] [Async Chat Thread - #10/INFO]: [Not Secure] <ggmrbeast> sao
-[20:44:56] [Server thread/INFO]: peggy issued server command: /time set night
-[20:44:56] [Server thread/INFO]: [peggy: Set the time to 13000]
-[20:45:06] [Server thread/INFO]: peggy issued server command: /time set 12000
-[20:45:06] [Server thread/INFO]: [peggy: Set the time to 12000]
-[20:48:10] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:48:10] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:48:10] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:48:10] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:48:10] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:48:40] [Async Chat Thread - #12/INFO]: [Not Secure] <peggy> go lenh /trust de cho phep nguoi khac pha' nha`
-[20:48:59] [Async Chat Thread - #13/INFO]: [Not Secure] <peggy> go lenh: /trust peggy
-[20:49:03] [Async Chat Thread - #13/INFO]: [Not Secure] <ggmrbeast> co cc
-[20:49:04] [Async Chat Thread - #13/INFO]: [Not Secure] <ggmrbeast> =)))
-[20:49:14] [Async Chat Thread - #13/INFO]: [Not Secure] <peggy> =))
-[20:52:21] [Async Chat Thread - #14/INFO]: [Not Secure] <ggmrbeast> chet me
-[20:52:27] [Async Chat Thread - #14/INFO]: [Not Secure] <ggmrbeast> nham me r
-[20:52:28] [Async Chat Thread - #14/INFO]: [Not Secure] <ggmrbeast> clm
-[20:52:36] [Async Chat Thread - #14/INFO]: [Not Secure] <peggy> sao v
-[20:52:47] [Async Chat Thread - #14/INFO]: [Not Secure] <ggmrbeast> lon ti le
-[20:53:11] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:53:12] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:53:12] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:53:12] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:53:12] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:53:34] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:53:36] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:53:37] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:53:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:53:53] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:54:44] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:54:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:54:55] [Server thread/INFO]: peggy issued server command: /adjustbonusclaimblocks peggy 5000
-[20:54:55] [Server thread/INFO]: [GriefPrevention] peggy adjusted peggy's bonus claim blocks by 5000.
-[20:54:59] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:00] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:12] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:13] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:32] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:33] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:33] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:55:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:56:16] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:56:18] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:56:19] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:56:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:56:20] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:58:13] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[20:58:13] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:58:13] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:58:13] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[20:58:13] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[20:59:36] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[20:59:37] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:00:10] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:00:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:00:14] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:00:48] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:00:50] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:00:51] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:00:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:00:53] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:02:41] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:02:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:02:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:02:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:02:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:03:14] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:03:14] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:03:14] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:03:14] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:03:14] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:03:59] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:04:00] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:04:01] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:04:27] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:04:34] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:04:40] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:04:41] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:04:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:04:54] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:08:16] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:08:16] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:08:16] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:08:16] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:08:16] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:12:40] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:12:41] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:12:51] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:12:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:12:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:12:52] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:13:00] [Async Chat Thread - #16/INFO]: [Not Secure] <peggy> cc j v
-[21:13:08] [Async Chat Thread - #16/INFO]: [Not Secure] <ggmrbeast> nha
-[21:13:13] [Async Chat Thread - #16/INFO]: [Not Secure] <ggmrbeast> =)))
-[21:13:18] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:13:19] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:13:19] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:13:19] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:13:19] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:13:24] [Async Chat Thread - #16/INFO]: [Not Secure] <ggmrbeast> chinh troi sang len dui
-[21:13:32] [Server thread/INFO]: peggy issued server command: /time set day
-[21:13:32] [Server thread/INFO]: [peggy: Set the time to 1000]
-[21:18:21] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:18:22] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:18:22] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:18:22] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:18:22] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:19:56] [Server thread/INFO]: peggy issued server command: /asdas
-[21:20:07] [Server thread/INFO]: peggy issued server command: /
-[21:22:29] [Async Chat Thread - #18/INFO]: [Not Secure] <peggy> nigger
-[21:23:02] [Async Chat Thread - #18/INFO]: [Not Secure] <peggy> fuck u
-[21:23:07] [Async Chat Thread - #18/INFO]: [Not Secure] <peggy> sao ko bi cam' chat nhi
-[21:23:13] [Async Chat Thread - #18/INFO]: [Not Secure] <ggmrbeast> =))
-[21:23:24] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:23:24] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:23:24] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:23:24] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:23:24] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:23:26] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:27] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:27] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:28] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:28] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:28] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:33] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 15
-[21:23:34] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 2
-[21:23:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 15
-[21:24:17] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:24:35] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:24:45] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:24:46] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:24:47] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:24:53] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:25:48] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 15
-[21:26:29] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:26:30] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:26:54] [Server thread/INFO]: [GriefPrevention] peggy attempted to create a claim, but conflicted with claim 4
-[21:28:25] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:28:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:28:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:28:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:28:25] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:29:47] [Async Chat Thread - #20/INFO]: [Not Secure] <ggmrbeast> chinh sang len voi
-[21:29:50] [Async Chat Thread - #20/INFO]: [Not Secure] <ggmrbeast> toi qua deo thay gi
-[21:30:54] [Server thread/INFO]: peggy issued server command: /time set day
-[21:30:54] [Server thread/INFO]: [peggy: Set the time to 1000]
-[21:32:59] [Server thread/INFO]: ggmrbeast has completed the challenge [Cover Me in Debris]
-[21:33:26] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:33:26] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:33:26] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:33:26] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:33:26] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:38:29] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:38:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:38:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:38:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:38:29] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:40:02] [Async Chat Thread - #22/INFO]: [Not Secure] <peggy> alo
-[21:40:05] [Async Chat Thread - #22/INFO]: [Not Secure] <ggmrbeast> sao
-[21:43:30] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:43:30] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:43:30] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:43:30] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:43:30] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:48:31] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:48:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:48:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:48:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:48:31] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:53:33] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:53:33] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:53:33] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:53:33] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:53:33] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:57:36] [Async Chat Thread - #24/INFO]: [Not Secure] <peggy> alo xong chua
-[21:57:39] [Async Chat Thread - #24/INFO]: [Not Secure] <ggmrbeast> gan r
-[21:57:41] [Async Chat Thread - #24/INFO]: [Not Secure] <ggmrbeast> sao v
-[21:57:51] [Async Chat Thread - #24/INFO]: [Not Secure] <peggy> dong server pha'
-[21:58:04] [Async Chat Thread - #24/INFO]: [Not Secure] <ggmrbeast> doi ti
-[21:58:06] [Async Chat Thread - #25/INFO]: [Not Secure] <ggmrbeast> sap
-[21:58:10] [Async Chat Thread - #25/INFO]: [Not Secure] <peggy> ok
-[21:58:34] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[21:58:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:58:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:58:35] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[21:58:35] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[21:59:11] [Server thread/INFO]: [Not Secure] [Server] Hello Wordl
-[21:59:26] [Server thread/INFO]: [Not Secure] [Server] test
-[22:03:38] [AutoSaveWorld AutoSaveThread/INFO]: AutoSaving
-[22:03:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[22:03:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[22:03:39] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[22:03:39] [AutoSaveWorld AutoSaveThread/INFO]: AutoSave Complete
-[22:05:52] [Async Chat Thread - #27/INFO]: [Not Secure] <ggmrbeast> xong r
-[22:05:54] [Async Chat Thread - #27/INFO]: [Not Secure] <ggmrbeast> qua dep
-[22:06:21] [Async Chat Thread - #29/INFO]: [Not Secure] <ggmrbeast> mai t xay tiep
-[22:06:22] [Async Chat Thread - #29/INFO]: [Not Secure] <ggmrbeast> =))
-[22:06:24] [Server thread/INFO]: ggmrbeast lost connection: Disconnected
-[22:06:24] [Server thread/INFO]: ggmrbeast left the game
+[13:58:11] [AutoSaveWorld AutoSaveThread/INFO]: Hoàn thành tự động lưu

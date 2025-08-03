@@ -1,3 +1,7 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+
 Messages:
   RespectingClaims:
     Text: Đang tôn trọng các khu đất được bảo vệ.
@@ -7,22 +11,28 @@ Messages:
     Text: Đã hủy bảo vệ khu đất. Bạn còn {0} khối đất có thể sử dụng.
     Notes: '0: số khối đất còn lại'
   RestoreNatureActivate:
-    Text: Sẵn sàng phục hồi tự nhiên! Nhấp chuột phải để phục hồi tự nhiên, và sử dụng /basicclaims để dừng.
+    Text: Sẵn sàng phục hồi tự nhiên! Nhấp chuột phải để phục hồi tự nhiên, và sử
+      dụng /basicclaims để dừng.
   RestoreNatureAggressiveActivate:
-    Text: Chế độ mạnh đã kích hoạt. KHÔNG sử dụng chế độ này dưới bất cứ thứ gì bạn muốn giữ! Nhấp chuột phải để phục hồi tự nhiên mạnh mẽ, và sử dụng /basicclaims để dừng.
+    Text: Chế độ mạnh đã kích hoạt. KHÔNG sử dụng chế độ này dưới bất cứ thứ gì bạn
+      muốn giữ! Nhấp chuột phải để phục hồi tự nhiên mạnh mẽ, và sử dụng /basicclaims
+      để dừng.
   FillModeActive:
-    Text: Chế độ lấp đầy đã kích hoạt với bán kính {0}. Nhấp chuột phải vào khu vực để lấp đầy.
+    Text: Chế độ lấp đầy đã kích hoạt với bán kính {0}. Nhấp chuột phải vào khu vực
+      để lấp đầy.
     Notes: '0: bán kính lấp đầy'
   TransferClaimPermission:
     Text: Lệnh đó yêu cầu quyền quản trị viên cho khu đất.
   TransferClaimMissing:
-    Text: Không có khu đất được bảo vệ ở đây. Hãy đứng trong khu đất quản trị mà bạn muốn chuyển.
+    Text: Không có khu đất được bảo vệ ở đây. Hãy đứng trong khu đất quản trị mà bạn
+      muốn chuyển.
   TransferClaimAdminOnly:
     Text: Chỉ các khu đất quản trị mới có thể chuyển cho người chơi.
   PlayerNotFound2:
     Text: Không có người chơi nào với tên đó đăng nhập gần đây.
   TransferTopLevel:
-    Text: Chỉ khu đất cấp cao nhất (không phải phân khu) mới có thể chuyển. Hãy đứng bên ngoài phân khu và thử lại.
+    Text: Chỉ khu đất cấp cao nhất (không phải phân khu) mới có thể chuyển. Hãy đứng
+      bên ngoài phân khu và thử lại.
   TransferSuccess:
     Text: Đã chuyển khu đất.
   TrustListNoClaim:
@@ -30,17 +40,21 @@ Messages:
   ClearPermsOwnerOnly:
     Text: Chỉ chủ khu đất mới có thể xóa toàn bộ quyền.
   UntrustIndividualAllClaims:
-    Text: Đã thu hồi quyền truy cập của {0} vào TẤT CẢ các khu đất của bạn. Để đặt quyền cho một khu đất cụ thể, hãy đứng trong khu đất đó.
+    Text: Đã thu hồi quyền truy cập của {0} vào TẤT CẢ các khu đất của bạn. Để đặt
+      quyền cho một khu đất cụ thể, hãy đứng trong khu đất đó.
     Notes: '0: tên người chơi bị thu hồi quyền'
   UntrustEveryoneAllClaims:
-    Text: Đã xóa toàn bộ quyền trong TẤT CẢ các khu đất của bạn. Để đặt quyền cho một khu đất cụ thể, hãy đứng trong khu đất đó.
+    Text: Đã xóa toàn bộ quyền trong TẤT CẢ các khu đất của bạn. Để đặt quyền cho
+      một khu đất cụ thể, hãy đứng trong khu đất đó.
   NoPermissionTrust:
     Text: Bạn không có quyền của {0} để quản lý quyền ở đây.
     Notes: '0: tên chủ khu đất'
   ClearPermissionsOneClaim:
-    Text: Đã xóa toàn bộ quyền trong khu đất này. Để đặt quyền cho TẤT CẢ các khu đất của bạn, hãy đứng bên ngoài chúng.
+    Text: Đã xóa toàn bộ quyền trong khu đất này. Để đặt quyền cho TẤT CẢ các khu
+      đất của bạn, hãy đứng bên ngoài chúng.
   UntrustIndividualSingleClaim:
-    Text: Đã thu hồi quyền truy cập của {0} vào khu đất này. Để đặt quyền cho TẤT CẢ các khu đất của bạn, hãy đứng bên ngoài chúng.
+    Text: Đã thu hồi quyền truy cập của {0} vào khu đất này. Để đặt quyền cho TẤT
+      CẢ các khu đất của bạn, hãy đứng bên ngoài chúng.
     Notes: '0: tên người chơi bị thu hồi quyền'
   OnlySellBlocks:
     Text: Khối đất chỉ có thể bán, không thể mua.
@@ -69,18 +83,21 @@ Messages:
     Text: Đã nạp {0} vào tài khoản của bạn. Bạn còn {1} khối đất có thể sử dụng.
     Notes: '0: số tiền nạp; 1: số khối còn lại'
   AdminClaimsMode:
-    Text: Chế độ khu đất quản trị đang hoạt động. Bất kỳ khu đất nào tạo ra sẽ miễn phí và có thể chỉnh sửa bởi quản trị viên khác.
+    Text: Chế độ khu đất quản trị đang hoạt động. Bất kỳ khu đất nào tạo ra sẽ miễn
+      phí và có thể chỉnh sửa bởi quản trị viên khác.
   BasicClaimsMode:
     Text: Đã trở về chế độ tạo khu đất cơ bản.
   SubdivisionMode:
-    Text: Chế độ phân khu. Sử dụng xẻng của bạn để tạo phân khu trong khu đất hiện có. Sử dụng /basicclaims để thoát.
+    Text: Chế độ phân khu. Sử dụng xẻng của bạn để tạo phân khu trong khu đất hiện
+      có. Sử dụng /basicclaims để thoát.
   SubdivisionVideo2:
     Text: 'Nhấp để xem Hướng dẫn Phân khu: {0}'
     Notes: '0: URL video'
   DeleteClaimMissing:
     Text: Không có khu đất nào ở đây.
   DeletionSubdivisionWarning:
-    Text: Khu đất này bao gồm các phân khu. Nếu bạn chắc chắn muốn xóa, hãy sử dụng /deleteclaim lần nữa.
+    Text: Khu đất này bao gồm các phân khu. Nếu bạn chắc chắn muốn xóa, hãy sử dụng
+      /deleteclaim lần nữa.
   DeleteSuccess:
     Text: Đã xóa khu đất.
   CantDeleteAdminClaim:
@@ -98,7 +115,8 @@ Messages:
   NotTrappedHere:
     Text: Bạn có thể xây dựng ở đây. Hãy tự cứu mình.
   RescuePending:
-    Text: Nếu bạn đứng yên trong 10 giây, bạn sẽ được dịch chuyển ra ngoài. Vui lòng chờ.
+    Text: Nếu bạn đứng yên trong 10 giây, bạn sẽ được dịch chuyển ra ngoài. Vui lòng
+      chờ.
   NonSiegeWorld:
     Text: Chế độ bao vây bị vô hiệu hóa ở đây.
   AlreadySieging:
@@ -120,31 +138,37 @@ Messages:
   NoSiegeAdminClaim:
     Text: Bao vây bị vô hiệu hóa trong khu vực này.
   SiegeOnCooldown:
-    Text: Bạn vẫn đang trong thời gian chờ bao vây cho người phòng thủ hoặc khu đất này. Hãy tìm nạn nhân khác.
+    Text: Bạn vẫn đang trong thời gian chờ bao vây cho người phòng thủ hoặc khu đất
+      này. Hãy tìm nạn nhân khác.
   SiegeAlert:
-    Text: Bạn đang bị bao vây! Nếu bạn thoát game bây giờ, bạn sẽ chết. Bạn phải đánh bại {0}, chờ anh ta bỏ cuộc, hoặc trốn thoát.
+    Text: Bạn đang bị bao vây! Nếu bạn thoát game bây giờ, bạn sẽ chết. Bạn phải đánh
+      bại {0}, chờ anh ta bỏ cuộc, hoặc trốn thoát.
     Notes: '0: tên kẻ tấn công'
   SiegeConfirmed:
-    Text: Cuộc bao vây đã bắt đầu! Nếu bạn thoát game bây giờ, bạn sẽ chết. Bạn phải đánh bại {0}, đuổi hắn đi, hoặc chấp nhận thất bại và rời đi.
+    Text: Cuộc bao vây đã bắt đầu! Nếu bạn thoát game bây giờ, bạn sẽ chết. Bạn phải
+      đánh bại {0}, đuổi hắn đi, hoặc chấp nhận thất bại và rời đi.
     Notes: '0: tên người phòng thủ'
   AbandonClaimMissing:
     Text: Hãy đứng trong khu đất bạn muốn xóa, hoặc xem xét /abandonallclaims.
   NotYourClaim:
     Text: Đây không phải là khu đất của bạn.
   DeleteTopLevelClaim:
-    Text: Để xóa một phân khu, hãy đứng trong nó. Nếu không, sử dụng /abandontoplevelclaim để xóa khu đất này và tất cả phân khu.
+    Text: Để xóa một phân khu, hãy đứng trong nó. Nếu không, sử dụng /abandontoplevelclaim
+      để xóa khu đất này và tất cả phân khu.
   AbandonSuccess:
     Text: Đã hủy bảo vệ khu đất. Bạn còn {0} khối đất có thể sử dụng.
     Notes: '0: số khối đất còn lại'
   ConfirmAbandonAllClaims:
-    Text: Bạn có chắc chắn muốn hủy bảo vệ TẤT CẢ khu đất của bạn? Vui lòng xác nhận với /abandonallclaims confirm
+    Text: Bạn có chắc chắn muốn hủy bảo vệ TẤT CẢ khu đất của bạn? Vui lòng xác nhận
+      với /abandonallclaims confirm
   CantGrantThatPermission:
     Text: Bạn không thể cấp quyền mà bản thân bạn không có.
   GrantPermissionNoClaim:
     Text: Hãy đứng trong khu đất mà bạn muốn cấp quyền.
   GrantPermissionConfirmation:
     Text: Đã cấp cho {0} quyền {1} {2}.
-    Notes: '0: người chơi mục tiêu; 1: mô tả quyền; 2: phạm vi (các khu đất đã thay đổi)'
+    Notes: '0: người chơi mục tiêu; 1: mô tả quyền; 2: phạm vi (các khu đất đã thay
+      đổi)'
   ManageUniversalPermissionsInstruction:
     Text: Để quản lý quyền cho TẤT CẢ khu đất của bạn, hãy đứng bên ngoài chúng.
   ManageOneClaimPermissionsInstruction:
@@ -165,7 +189,8 @@ Messages:
   LocationAllClaims:
     Text: trong tất cả khu đất của bạn
   PvPImmunityStart:
-    Text: Bạn được bảo vệ khỏi tấn công bởi người chơi khác miễn là túi đồ của bạn trống.
+    Text: Bạn được bảo vệ khỏi tấn công bởi người chơi khác miễn là túi đồ của bạn
+      trống.
   SiegeNoDrop:
     Text: Bạn không thể cho đồ vật khi đang tham gia bao vây.
   DonateItemsInstruction:
@@ -177,7 +202,8 @@ Messages:
   PlayerTooCloseForFire2:
     Text: Bạn không thể đốt lửa quá gần người chơi khác.
   TooDeepToClaim:
-    Text: Rương này không thể được bảo vệ vì nó quá sâu dưới lòng đất. Hãy di chuyển nó.
+    Text: Rương này không thể được bảo vệ vì nó quá sâu dưới lòng đất. Hãy di chuyển
+      nó.
   ChestClaimConfirmation:
     Text: Rương này đã được bảo vệ.
   AutomaticClaimNotification:
@@ -185,7 +211,8 @@ Messages:
   AutomaticClaimOtherClaimTooClose:
     Text: Không thể tạo khu đất cho rương của bạn, có một khu đất khác quá gần!
   UnprotectedChestWarning:
-    Text: Rương này KHÔNG được bảo vệ. Hãy sử dụng xẻng vàng để mở rộng khu đất hiện có hoặc tạo khu đất mới.
+    Text: Rương này KHÔNG được bảo vệ. Hãy sử dụng xẻng vàng để mở rộng khu đất hiện
+      có hoặc tạo khu đất mới.
   ThatPlayerPvPImmune:
     Text: Bạn không thể làm tổn thương người chơi không có khả năng phòng thủ.
   CantFightWhileImmune:
@@ -206,7 +233,8 @@ Messages:
     Notes: '{0}: URL video'
   TrappedChatKeyword:
     Text: kẹt;mắc kẹt
-    Notes: Khi được nhắc trong chat, người chơi nhận được thông tin về lệnh /trapped (có thể dùng nhiều từ, phân cách bằng dấu chấm phẩy)
+    Notes: Khi được nhắc trong chat, người chơi nhận được thông tin về lệnh /trapped
+      (có thể dùng nhiều từ, phân cách bằng dấu chấm phẩy)
   TrappedInstructions:
     Text: Bạn có bị kẹt trong khu đất của ai đó? Hãy thử lệnh /trapped.
   PvPNoDrop:
@@ -247,31 +275,39 @@ Messages:
     Text: Bạn không có đủ khối cho kích thước này. Bạn cần thêm {0} khối.
     Notes: '0: số khối cần thêm'
   NoCreativeUnClaim:
-    Text: Bạn không thể hủy bảo vệ khu đất này. Bạn chỉ có thể mở rộng khu đất hoặc tạo khu đất mới.
+    Text: Bạn không thể hủy bảo vệ khu đất này. Bạn chỉ có thể mở rộng khu đất hoặc
+      tạo khu đất mới.
   ClaimResizeSuccess:
     Text: Đã thay đổi kích thước khu đất. Còn {0} khối đất có thể sử dụng.
     Notes: '0: số khối còn lại'
   ResizeFailOverlap:
-    Text: Không thể thay đổi kích thước ở đây vì nó sẽ chồng lên khu đất khác gần đó.
+    Text: Không thể thay đổi kích thước ở đây vì nó sẽ chồng lên khu đất khác gần
+      đó.
   ResizeStart:
-    Text: Đang thay đổi kích thước khu đất. Hãy sử dụng xẻng của bạn tại vị trí mới cho góc này.
+    Text: Đang thay đổi kích thước khu đất. Hãy sử dụng xẻng của bạn tại vị trí mới
+      cho góc này.
   ResizeFailOverlapSubdivision:
-    Text: Bạn không thể tạo phân khu ở đây vì nó sẽ chồng lên phân khu khác. Hãy sử dụng /abandonclaim để xóa nó, hoặc sử dụng xẻng tại góc để thay đổi kích thước.
+    Text: Bạn không thể tạo phân khu ở đây vì nó sẽ chồng lên phân khu khác. Hãy sử
+      dụng /abandonclaim để xóa nó, hoặc sử dụng xẻng tại góc để thay đổi kích thước.
   SubdivisionStart:
-    Text: Đã đặt góc phân khu! Hãy sử dụng xẻng của bạn tại vị trí góc đối diện cho phân khu mới này.
+    Text: Đã đặt góc phân khu! Hãy sử dụng xẻng của bạn tại vị trí góc đối diện cho
+      phân khu mới này.
   CreateSubdivisionOverlap:
     Text: Khu vực bạn chọn chồng lên một phân khu khác.
   SubdivisionSuccess:
     Text: Đã tạo phân khu! Hãy sử dụng /trust để chia sẻ với bạn bè.
   CreateClaimFailOverlap:
-    Text: Bạn không thể tạo khu đất ở đây vì nó sẽ chồng lên khu đất khác của bạn. Hãy sử dụng /abandonclaim để xóa nó, hoặc sử dụng xẻng tại góc để thay đổi kích thước.
+    Text: Bạn không thể tạo khu đất ở đây vì nó sẽ chồng lên khu đất khác của bạn.
+      Hãy sử dụng /abandonclaim để xóa nó, hoặc sử dụng xẻng tại góc để thay đổi kích
+      thước.
   CreateClaimFailOverlapOtherPlayer:
     Text: Bạn không thể tạo khu đất ở đây vì nó sẽ chồng lên khu đất của {0}.
     Notes: '0: chủ khu đất khác'
   ClaimsDisabledWorld:
     Text: Bảo vệ đất bị vô hiệu hóa trong thế giới này.
   ClaimStart:
-    Text: Đã đặt góc khu đất! Hãy sử dụng xẻng tại góc đối diện để bảo vệ một hình chữ nhật đất. Để hủy, cất xẻng đi.
+    Text: Đã đặt góc khu đất! Hãy sử dụng xẻng tại góc đối diện để bảo vệ một hình
+      chữ nhật đất. Để hủy, cất xẻng đi.
   NewClaimTooNarrow:
     Text: Khu đất này sẽ quá nhỏ. Bất kỳ khu đất nào phải rộng ít nhất {0} khối.
     Notes: '0: độ rộng tối thiểu'
@@ -311,7 +347,8 @@ Messages:
     Text: Bạn không có quyền của {0} để sử dụng cái đó.
     Notes: '0: tên chủ sở hữu. quyền truy cập kiểm soát nút bấm, cần gạt, và giường'
   NoContainersSiege:
-    Text: Khu đất này đang bị bao vây bởi {0}. Hiện tại không ai có thể truy cập rương ở đây.
+    Text: Khu đất này đang bị bao vây bởi {0}. Hiện tại không ai có thể truy cập rương
+      ở đây.
     Notes: '0: tên kẻ tấn công'
   NoContainersPermission:
     Text: Bạn không có quyền của {0} để sử dụng cái đó.
@@ -322,34 +359,42 @@ Messages:
   ClaimTooSmallForEntities:
     Text: Khu đất này không đủ lớn cho cái đó. Hãy thử mở rộng nó.
   TooManyEntitiesInClaim:
-    Text: Khu đất này đã có quá nhiều thực thể. Hãy thử mở rộng khu đất hoặc loại bỏ bớt động vật, quái vật, tranh, hoặc minecart.
+    Text: Khu đất này đã có quá nhiều thực thể. Hãy thử mở rộng khu đất hoặc loại
+      bỏ bớt động vật, quái vật, tranh, hoặc minecart.
   YouHaveNoClaims:
     Text: Bạn không có khu đất nào.
   ConfirmFluidRemoval:
-    Text: Hủy bảo vệ khu đất này sẽ loại bỏ dung nham bên trong. Nếu bạn chắc chắn, hãy sử dụng /abandonclaim lần nữa.
+    Text: Hủy bảo vệ khu đất này sẽ loại bỏ dung nham bên trong. Nếu bạn chắc chắn,
+      hãy sử dụng /abandonclaim lần nữa.
   AutoBanNotify:
     Text: Tự động cấm {0}({1}). Xem nhật ký để biết chi tiết.
   AdjustGroupBlocksSuccess:
-    Text: 'Đã điều chỉnh khối đất thưởng cho người chơi có quyền {0} thêm {1}. Tổng mới: {2}.'
+    Text: 'Đã điều chỉnh khối đất thưởng cho người chơi có quyền {0} thêm {1}. Tổng
+      mới: {2}.'
     Notes: '0: quyền; 1: số điều chỉnh; 2: tổng mới'
   InvalidPermissionID:
     Text: Vui lòng chỉ định tên người chơi, hoặc một quyền trong [ngoặc vuông].
   HowToClaimRegex:
     Text: (^|.*\W)how\W.*\W(claim|protect|lock)(\W.*|$)
-    Notes: Đây là biểu thức chính quy Java. Hãy tra cứu trước khi chỉnh sửa! Nó được dùng để chỉ người chơi về video demo khi họ hỏi cách bảo vệ đất.
+    Notes: Đây là biểu thức chính quy Java. Hãy tra cứu trước khi chỉnh sửa! Nó được
+      dùng để chỉ người chơi về video demo khi họ hỏi cách bảo vệ đất.
   NoBuildOutsideClaims:
     Text: Bạn không thể xây dựng ở đây trừ khi bạn bảo vệ một số đất trước.
   PlayerOfflineTime:
     Text: '  Lần đăng nhập cuối: {0} ngày trước.'
     Notes: '0: số ngày kể từ lần đăng nhập cuối'
   BuildingOutsideClaims:
-    Text: Người chơi khác cũng có thể xây dựng ở đây. Hãy tạo khu đất để bảo vệ công trình của bạn!
+    Text: Người chơi khác cũng có thể xây dựng ở đây. Hãy tạo khu đất để bảo vệ công
+      trình của bạn!
   TrappedWontWorkHere:
-    Text: Xin lỗi, không thể tìm thấy vị trí an toàn để dịch chuyển bạn. Hãy liên hệ quản trị viên.
+    Text: Xin lỗi, không thể tìm thấy vị trí an toàn để dịch chuyển bạn. Hãy liên
+      hệ quản trị viên.
   CommandBannedInPvP:
     Text: Bạn không thể sử dụng lệnh đó trong PvP.
   UnclaimCleanupWarning:
-    Text: Đất bạn đã hủy bảo vệ có thể bị thay đổi bởi người chơi khác hoặc dọn dẹp bởi quản trị viên. Nếu bạn đã xây dựng thứ gì đó bạn muốn giữ, bạn nên bảo vệ lại.
+    Text: Đất bạn đã hủy bảo vệ có thể bị thay đổi bởi người chơi khác hoặc dọn dẹp
+      bởi quản trị viên. Nếu bạn đã xây dựng thứ gì đó bạn muốn giữ, bạn nên bảo vệ
+      lại.
   BuySellNotConfigured:
     Text: Xin lỗi, mua và bán khối đất bị vô hiệu hóa.
   NoTeleportPvPCombat:
@@ -365,15 +410,18 @@ Messages:
   ClaimsListNoPermission:
     Text: Bạn không có quyền để lấy thông tin về khu đất của người chơi khác.
   ExplosivesDisabled:
-    Text: Khu đất này đã được bảo vệ khỏi nổ. Sử dụng /claimexplosions lần nữa để vô hiệu hóa.
+    Text: Khu đất này đã được bảo vệ khỏi nổ. Sử dụng /claimexplosions lần nữa để
+      vô hiệu hóa.
   ExplosivesEnabled:
-    Text: Khu đất này giờ đây dễ bị tổn thương bởi nổ. Sử dụng /claimexplosions lần nữa để kích hoạt lại bảo vệ.
+    Text: Khu đất này giờ đây dễ bị tổn thương bởi nổ. Sử dụng /claimexplosions lần
+      nữa để kích hoạt lại bảo vệ.
   ClaimExplosivesAdvertisement:
     Text: Để cho phép nổ phá hủy khối trong khu đất này, hãy sử dụng /claimexplosions.
   PlayerInPvPSafeZone:
     Text: Người chơi đó đang trong khu vực an toàn PvP.
   NoPistonsOutsideClaims:
-    Text: 'Cảnh báo: Piston sẽ không di chuyển các khối bên ngoài khu đất được bảo vệ.'
+    Text: 'Cảnh báo: Piston sẽ không di chuyển các khối bên ngoài khu đất được bảo
+      vệ.'
   SoftMuted:
     Text: Đã tắt tiền {0}.
     Notes: '0: Tên người chơi bị thay đổi.'
@@ -386,14 +434,17 @@ Messages:
     Text: Bạn không thể nhặt cái này trừ khi {0} sử dụng /unlockdrops.
     Notes: '0: Chủ sở hữu của đồ vật.'
   DropUnlockConfirmation:
-    Text: Đã mở khóa đồ vứt của bạn. Người chơi khác giờ có thể nhặt chúng (cho đến khi bạn chết lần nữa).
+    Text: Đã mở khóa đồ vứt của bạn. Người chơi khác giờ có thể nhặt chúng (cho đến
+      khi bạn chết lần nữa).
   DropUnlockOthersConfirmation:
     Text: Đã mở khóa đồ vứt của {0}.
     Notes: '0: Chủ sở hữu của đồ đã được mở khóa.'
   AdvertiseACandACB:
-    Text: Bạn có thể sử dụng /acb để tự cho mình thêm khối đất, hoặc /adminclaims để tạo khu đất quản trị miễn phí.
+    Text: Bạn có thể sử dụng /acb để tự cho mình thêm khối đất, hoặc /adminclaims
+      để tạo khu đất quản trị miễn phí.
   AdvertiseAdminClaims:
-    Text: Bạn có thể tạo khu đất quản trị bằng cách sử dụng /adminclaims, mà bạn sẽ chia sẻ với quản trị viên khác.
+    Text: Bạn có thể tạo khu đất quản trị bằng cách sử dụng /adminclaims, mà bạn sẽ
+      chia sẻ với quản trị viên khác.
   AdvertiseACB:
     Text: Bạn có thể sử dụng /acb để tự cho mình thêm khối đất.
   NotYourPet:
@@ -404,13 +455,15 @@ Messages:
   PetTransferCancellation:
     Text: Đã hủy chuyển thú cưng.
   ReadyToTransferPet:
-    Text: Sẵn sàng chuyển! Nhấp chuột phải vào thú cưng bạn muốn cho đi, hoặc hủy bằng /givepet cancel.
+    Text: Sẵn sàng chuyển! Nhấp chuột phải vào thú cưng bạn muốn cho đi, hoặc hủy
+      bằng /givepet cancel.
   AvoidGriefClaimLand:
     Text: Ngăn chặn grief! Nếu bạn bảo vệ đất của mình, bạn sẽ không bị grief.
   BecomeMayor:
     Text: Hãy phân chia khu đất của bạn và trở thành thị trưởng!
   ClaimCreationFailedOverClaimCountLimit:
-    Text: Bạn đã đạt giới hạn khu đất. Hãy sử dụng /abandonclaim để xóa một khu trước khi tạo khu mới.
+    Text: Bạn đã đạt giới hạn khu đất. Hãy sử dụng /abandonclaim để xóa một khu trước
+      khi tạo khu mới.
   CreateClaimFailOverlapRegion:
     Text: Bạn không thể bảo vệ tất cả vì bạn không được phép xây dựng ở đây.
   ResizeFailOverlapRegion:
@@ -419,7 +472,8 @@ Messages:
     Text: Đã tìm thấy {0} khu đất.
     Notes: '0: Số khu đất tìm thấy.'
   NoChatUntilMove:
-    Text: Xin lỗi, nhưng bạn phải di chuyển một chút trước khi có thể chat. Chúng tôi có rất nhiều bot spam ở đây. :)'
+    Text: Xin lỗi, nhưng bạn phải di chuyển một chút trước khi có thể chat. Chúng
+      tôi có rất nhiều bot spam ở đây. :)'
   SiegeImmune:
     Text: Người chơi đó miễn nhiễm với /siege.
   SetClaimBlocksSuccess:
@@ -468,7 +522,8 @@ Messages:
   BookTitle:
     Text: Cách Bảo vệ Đất
   BookIntro:
-    Text: Bảo vệ đất để bảo vệ đồ của bạn! Nhấp vào liên kết trên để học về bảo vệ đất trong 3 phút hoặc ít hơn. :)
+    Text: Bảo vệ đất để bảo vệ đồ của bạn! Nhấp vào liên kết trên để học về bảo vệ
+      đất trong 3 phút hoặc ít hơn. :)
   BookDisabledChestClaims:
     Text: '  Trên máy chủ này, đặt rương sẽ KHÔNG tự động bảo vệ đất cho bạn.'
   BookUsefulCommands:
@@ -483,14 +538,17 @@ Messages:
     Text: Kích thước mới này sẽ quá nhỏ. Khu đất phải rộng ít nhất {0} khối.
     Notes: '0: độ rộng tối thiểu'
   ResizeClaimInsufficientArea:
-    Text: Khu đất này sẽ quá nhỏ. Bất kỳ khu đất nào phải sử dụng ít nhất {0} khối đất tổng cộng.
+    Text: Khu đất này sẽ quá nhỏ. Bất kỳ khu đất nào phải sử dụng ít nhất {0} khối
+      đất tổng cộng.
     Notes: '0: diện tích tối thiểu'
   NoProfanity:
     Text: Vui lòng kiểm soát ngôn ngữ của bạn.
   PlayerNotIgnorable:
     Text: Bạn không thể bỏ qua người chơi đó.
   NoEnoughBlocksForChestClaim:
-    Text: Vì bạn không có khối đất nào, không có khu đất tự động nào được tạo cho bạn. Bạn có thể sử dụng /claimslist để theo dõi tổng số khối đất có sẵn của bạn.
+    Text: Vì bạn không có khối đất nào, không có khu đất tự động nào được tạo cho
+      bạn. Bạn có thể sử dụng /claimslist để theo dõi tổng số khối đất có sẵn của
+      bạn.
   IsIgnoringYou:
     Text: Người chơi đó đang bỏ qua bạn.
   MustHoldModificationToolForThat:
@@ -500,16 +558,19 @@ Messages:
   ClaimsExtendToSky:
     Text: Khu đất luôn mở rộng đến độ cao xây dựng tối đa.
   ClaimsAutoExtendDownward:
-    Text: Khu đất tự động mở rộng sâu hơn vào lòng đất khi bạn đặt các khối bên dưới chúng.
+    Text: Khu đất tự động mở rộng sâu hơn vào lòng đất khi bạn đặt các khối bên dưới
+      chúng.
   MinimumRadius:
     Text: Bán kính tối thiểu là {0}.
     Notes: '0: bán kính tối thiểu'
   RadiusRequiresGoldenShovel:
     Text: Bạn phải cầm xẻng vàng khi chỉ định bán kính.
   ClaimTooSmallForActiveBlocks:
-    Text: Khu đất này không đủ lớn để hỗ trợ bất kỳ khối hoạt động nào (phễu, spawner, beacon...). Hãy mở rộng khu đất trước.
+    Text: Khu đất này không đủ lớn để hỗ trợ bất kỳ khối hoạt động nào (phễu, spawner,
+      beacon...). Hãy mở rộng khu đất trước.
   TooManyActiveBlocksInClaim:
-    Text: Khu đất này đã đạt giới hạn cho các khối hoạt động (phễu, spawner, beacon...). Hãy mở rộng nó, hoặc loại bỏ các khối hoạt động khác trước.
+    Text: Khu đất này đã đạt giới hạn cho các khối hoạt động (phễu, spawner, beacon...).
+      Hãy mở rộng nó, hoặc loại bỏ các khối hoạt động khác trước.
   ConsoleOnlyCommand:
     Text: Lệnh đó chỉ có thể thực thi từ console của máy chủ.
   WorldNotFound:
@@ -526,5 +587,6 @@ Messages:
   SubclaimUnrestricted:
     Text: Quyền của phân khu này sẽ kế thừa từ khu đất cha
   NetherPortalTrapDetectionMessage:
-    Text: Có vẻ như bạn có thể bị kẹt bên trong cổng Nether. Chúng tôi sẽ giải cứu bạn sau vài giây nếu đúng như vậy!
+    Text: Có vẻ như bạn có thể bị kẹt bên trong cổng Nether. Chúng tôi sẽ giải cứu
+      bạn sau vài giây nếu đúng như vậy!
     Notes: Gửi cho người chơi khi tham gia, nếu họ rời đi khi đang ở trong cổng Nether.

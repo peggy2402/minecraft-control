@@ -1,6 +1,6 @@
 broadcast:
-  pre: '&9AutoSaving'
-  post: '&9AutoSave Complete'
+  pre: '&9Đang tự động lưu'
+  post: '&9Hoàn thành tự động lưu'
 broadcastbackup:
   pre: '&9AutoBackuping'
   post: '&9AutoBackup Complete'
