@@ -1,128 +1,413 @@
-[13:47:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
-[13:47:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) for Minecraft 1.21.8
-[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[13:47:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - AutoSaveWorld (4.15), GriefPrevention (16.18.4), voicechat (2.5.35)
-[13:47:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:47:48] [ServerMain/INFO]: Loaded 1407 recipes
-[13:47:48] [ServerMain/INFO]: Loaded 1520 advancements
-[13:47:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:47:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 650.0ms
-[13:47:49] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[13:47:49] [Server thread/INFO]: Loading properties
-[13:47:49] [Server thread/INFO]: This server is running Paper version 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[13:47:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:47:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:47:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:47:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[13:47:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[13:47:51] [Server thread/INFO]: Default game type: SURVIVAL
-[13:47:51] [Server thread/INFO]: Generating keypair
-[13:47:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:47:51] [Server thread/INFO]: Using default channel type
-[13:47:51] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:47:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:47:51] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:48:04] [Server thread/WARN]: Legacy plugin AutoSaveWorld v4.15 does not specify an api-version.
-[13:48:04] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
-[13:48:04] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[13:48:04] [Server thread/INFO]: [AutoSaveWorld] Loading server plugin AutoSaveWorld v4.15
-[13:48:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:48:04] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15*
-[13:48:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:48:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:48:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:48:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:48:04] [Server thread/INFO]: Preparing level "world"
-[13:48:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:48:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:48:07] [Server thread/INFO]: Time elapsed: 1519 ms
-[13:48:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:48:07] [Server thread/INFO]: Preparing spawn area: 0%
-[13:48:07] [Server thread/INFO]: Time elapsed: 326 ms
-[13:48:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:48:07] [Server thread/INFO]: Preparing spawn area: 0%
-[13:48:07] [Server thread/INFO]: Time elapsed: 220 ms
-[13:48:07] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
-[13:48:07] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
-[13:48:08] [Server thread/INFO]: [voicechat] Compatibility version 18
-[13:48:08] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[13:48:08] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[13:48:08] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[13:48:08] [Server thread/INFO]: [GriefPrevention] 7 total claims loaded.
-[13:48:08] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[13:48:09] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[13:48:09] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[13:48:09] [Server thread/INFO]: [spark] Starting background profiler...
-[13:48:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:48:10] [Server thread/INFO]: Done preparing level "world" (5.656s)
-[13:48:10] [Server thread/INFO]: Running delayed init tasks
-[13:48:10] [Server thread/INFO]: Done (29.714s)! For help, type "help"
-[13:48:10] [Server thread/INFO]: [voicechat] Loading plugins
-[13:48:10] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:48:10] [Server thread/INFO]: [voicechat] Initializing plugins
-[13:48:10] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:48:10] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13:48:10] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'started-pf.gl.at.ply.gg:49546'
-[13:48:10] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[13:48:17] [User Authenticator #0/INFO]: UUID of player peggy is 36956e1f-941a-3508-a95a-d4316cbe8213
-[13:48:17] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention]
-[13:48:20] [Server thread/INFO]: peggy joined the game
-[13:48:20] [Server thread/INFO]: peggy[/127.14.49.221:53294] logged in with entity id 128 at ([world]-946.4444429813562, 92.90192224307691, 38.98884963669088)
-[13:48:20] [Server thread/INFO]: [voicechat] Received secret request of peggy (18)
-[13:48:20] [Server thread/INFO]: [voicechat] Sent secret to peggy
-[13:48:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 36956e1f-941a-3508-a95a-d4316cbe8213
-[13:48:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 36956e1f-941a-3508-a95a-d4316cbe8213
-[13:48:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player peggy (36956e1f-941a-3508-a95a-d4316cbe8213) successfully connected to voice chat
-[13:53:07] [AutoSaveWorld AutoSaveThread/INFO]: Đang tự động lưu
-[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:53:07] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:53:07] [AutoSaveWorld AutoSaveThread/INFO]: Hoàn thành tự động lưu
-[13:54:23] [Server thread/INFO]: peggy issued server command: /voicechat test
-[13:54:31] [Server thread/INFO]: peggy issued server command: /voicechat test
-[13:54:45] [Server thread/INFO]: peggy issued server command: /voicechat help
-[13:58:11] [AutoSaveWorld AutoSaveThread/INFO]: Đang tự động lưu
-[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:58:11] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
-java.lang.RuntimeException: Can't find method saveLevel with params length 0
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-	at AutoSaveWorld-1.0-SNAPSHOT.jar/autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) ~[AutoSaveWorld-1.0-SNAPSHOT.jar:?]
-[13:58:11] [AutoSaveWorld AutoSaveThread/INFO]: Hoàn thành tự động lưu
+[13:12:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Windows 11 10.0 (amd64)
+[13:12:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) for Minecraft 1.21.8
+[13:12:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:12:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[13:12:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - Chunky (1.4.40), Geyser-Spigot (2.8.3-SNAPSHOT), GriefPrevention (16.18.4), ProtocolLib (5.4.0-SNAPSHOT-756), ViaBackwards (5.4.3-SNAPSHOT), ViaRewind (4.0.9), ViaVersion (5.5.0-SNAPSHOT), WorldEdit (7.3.16+cbf4bd5), floodgate (2.2.4-SNAPSHOT (b118-40d320a)), voicechat (2.5.35)
+[13:12:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:12:12] [ServerMain/INFO]: Loaded 1407 recipes
+[13:12:12] [ServerMain/INFO]: Loaded 1520 advancements
+[13:12:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:12:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 571.4ms
+[13:12:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[13:12:13] [Server thread/INFO]: Loading properties
+[13:12:13] [Server thread/INFO]: This server is running Paper version 1.21.8-21-main@ed31825 (2025-07-31T02:36:28Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[13:12:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:12:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:12:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:12:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[13:12:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:12:15] [Server thread/INFO]: Default game type: SURVIVAL
+[13:12:15] [Server thread/INFO]: Generating keypair
+[13:12:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:12:15] [Server thread/INFO]: Using default channel type
+[13:12:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:12:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:12:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0-SNAPSHOT
+[13:12:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.0-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[13:12:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:12:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:12:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:12:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:12:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[13:12:21] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.3-SNAPSHOT
+[13:12:21] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[13:12:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c7d3abc]
+[13:12:22] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[13:12:23] [Server thread/INFO]: [floodgate] Took 1,097ms to boot Floodgate
+[13:12:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.35
+[13:12:23] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.9
+[13:12:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-756
+[13:12:23] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[13:12:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[13:12:24] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[13:12:24] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[13:12:24] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[13:12:24] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[13:12:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:12:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[13:12:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:12:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:12:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[13:12:27] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.9
+[13:12:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-756
+[13:12:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:12:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:12:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:12:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:12:27] [Server thread/INFO]: Preparing level "world"
+[13:12:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:12:29] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:30] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:30] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:30] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:31] [Server thread/INFO]: Preparing spawn area: 2%
+[13:12:31] [Server thread/INFO]: Time elapsed: 2076 ms
+[13:12:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:12:31] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:31] [Server thread/INFO]: Time elapsed: 514 ms
+[13:12:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:12:31] [Server thread/INFO]: Preparing spawn area: 0%
+[13:12:32] [Server thread/INFO]: Time elapsed: 343 ms
+[13:12:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.0-SNAPSHOT
+[13:12:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[13:12:32] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.3-SNAPSHOT
+[13:12:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[13:12:32] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.35
+[13:12:32] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[13:12:32] [Server thread/INFO]: [voicechat] Compatibility version 18
+[13:12:32] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:12:32] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[13:12:32] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[13:12:32] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[13:12:32] [Server thread/INFO]: [GriefPrevention] 8 total claims loaded.
+[13:12:33] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[13:12:33] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[13:12:33] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[13:12:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[13:12:34] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[13:12:35] [Server thread/INFO]: [spark] Starting background profiler...
+[13:12:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:12:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:12:36] [Server thread/INFO]: [Geyser-Spigot] 
+[13:12:36] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b903 (git-master-61a1ddd)
+[13:12:36] [Server thread/INFO]: [Geyser-Spigot] 
+[13:12:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:12:40] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[13:12:40] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 94 (git-master-be3fe72) for Bedrock 1.21.100 (827)
+[13:12:41] [Server thread/INFO]: [Geyser-Spigot] Done (5.745s)! Run /geyser help for help!
+[13:12:41] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[13:12:42] [Server thread/INFO]: Done preparing level "world" (14.525s)
+[13:12:42] [Server thread/INFO]: Running delayed init tasks
+[13:12:42] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:12:42] [Server thread/INFO]: Done (41.209s)! For help, type "help"
+[13:12:42] [Server thread/INFO]: [voicechat] Loading plugins
+[13:12:42] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:12:42] [Server thread/INFO]: [voicechat] Initializing plugins
+[13:12:42] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:12:42] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:12:42] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'started-pf.gl.at.ply.gg:49546'
+[13:12:42] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[13:12:42] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:12:43] [Server thread/INFO]: Saved the game
+[13:12:43] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:12:43] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[13:12:44] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:12:44] [Server thread/INFO]: Saved the game
+[13:12:44] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:12:49] [User Authenticator #0/INFO]: UUID of player Niran is 68832c56-eaa9-38e1-9354-38c8b8a0033f
+[13:12:49] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [GriefPrevention, ProtocolLib]
+[13:12:50] [MCXboxBroadcast Thread-1/WARN]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Failed to get/refresh auth token
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.executor.HttpClientExecutor.execute(HttpClientExecutor.java:48) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.HttpClient.execute(HttpClient.java:232) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.HttpClient.execute(HttpClient.java:213) ~[Geyser-Spigot.jar:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.fetchPlayfabSessionTicket(AuthManager.java:121) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.initialise(AuthManager.java:108) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.getXboxToken(AuthManager.java:141) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManagerCore.getXboxToken(SessionManagerCore.java:138) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManagerCore.init(SessionManagerCore.java:155) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManager.init(SessionManager.java:79) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.geyser.MCXboxBroadcastExtension.createSession(MCXboxBroadcastExtension.java:216) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.geyser.MCXboxBroadcastExtension.lambda$onPostInitialize$4(MCXboxBroadcastExtension.java:188) ~[?:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:612) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:556) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:475) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at java.net.http/jdk.internal.net.http.Exchange.checkCancelled(Exchange.java:335) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:298) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:266) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:103) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1386) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:613) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:556) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:475) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at java.net.http/jdk.internal.net.http.Exchange.checkCancelled(Exchange.java:335) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:298) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:266) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:103) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1386) ~[java.net.http:?]
+[13:12:50] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as BasalWings7831 (2535448586491216)
+[13:12:51] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[13:12:51] [Server thread/INFO]: Niran joined the game
+[13:12:51] [Server thread/INFO]: Niran[/127.208.153.139:53597] logged in with entity id 127 at ([world]-958.4476827678061, 74.0, 100.20700838662283)
+[13:12:56] [MCXboxBroadcast Thread-1/WARN]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Failed to get/refresh auth token
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:949) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.executor.HttpClientExecutor.execute(HttpClientExecutor.java:48) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.HttpClient.execute(HttpClient.java:232) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/net.lenni0451.commons.httpclient.HttpClient.execute(HttpClient.java:213) ~[Geyser-Spigot.jar:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.fetchPlayfabSessionTicket(AuthManager.java:121) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.initialise(AuthManager.java:108) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.AuthManager.getPlayfabSessionTicket(AuthManager.java:148) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManagerCore.setupSession(SessionManagerCore.java:375) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManagerCore.createSession(SessionManagerCore.java:207) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManagerCore.init(SessionManagerCore.java:173) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.core.SessionManager.init(SessionManager.java:79) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.geyser.MCXboxBroadcastExtension.createSession(MCXboxBroadcastExtension.java:216) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.geyser.MCXboxBroadcastExtension.lambda$onPostInitialize$4(MCXboxBroadcastExtension.java:188) ~[?:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:612) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:556) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:475) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at java.net.http/jdk.internal.net.http.Exchange.checkCancelled(Exchange.java:335) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:298) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:266) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:103) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1386) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:613) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:556) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:475) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at java.net.http/jdk.internal.net.http.Exchange.checkCancelled(Exchange.java:335) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:298) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:266) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:103) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1386) ~[java.net.http:?]
+[13:13:09] [User Authenticator #0/INFO]: UUID of player ggmrbeast is 4c4d312c-1f9c-3160-9fc6-875e304370b1
+[13:13:10] [Server thread/INFO]: ggmrbeast joined the game
+[13:13:10] [Server thread/INFO]: ggmrbeast[/127.228.4.232:53616] logged in with entity id 293 at ([world]-385.87905726943535, 99.42945679888663, 717.7403327698528)
+[13:13:10] [Server thread/INFO]: [voicechat] Received secret request of ggmrbeast (18)
+[13:13:10] [Server thread/INFO]: [voicechat] Sent secret to ggmrbeast
+[13:13:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4c4d312c-1f9c-3160-9fc6-875e304370b1
+[13:13:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4c4d312c-1f9c-3160-9fc6-875e304370b1
+[13:13:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ggmrbeast (4c4d312c-1f9c-3160-9fc6-875e304370b1) successfully connected to voice chat
+[13:13:17] [User Authenticator #0/INFO]: UUID of player peggy is 36956e1f-941a-3508-a95a-d4316cbe8213
+[13:13:17] [Server thread/INFO]: peggy joined the game
+[13:13:17] [Server thread/INFO]: peggy[/127.0.0.1:53620] logged in with entity id 571 at ([world]-572.2778150079478, 87.0, 638.3821183713796)
+[13:13:17] [Server thread/INFO]: [voicechat] Received secret request of peggy (18)
+[13:13:17] [Server thread/INFO]: [voicechat] Sent secret to peggy
+[13:13:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 36956e1f-941a-3508-a95a-d4316cbe8213
+[13:13:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Niran> vl :))
+[13:13:27] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> k dung cho cu
+[13:13:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> ko save
+[13:13:34] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> nhma xay van y v
+[13:13:35] [Async Chat Thread - #2/INFO]: [Not Secure] <peggy> ko save a
+[13:13:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> t mat do r :))
+[13:13:53] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> =)))
+[13:13:55] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> mat do gi
+[13:14:04] [Server thread/INFO]: peggy issued server command: /save-all
+[13:14:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> may do farm duoi nether
+[13:14:07] [Server thread/INFO]: [peggy: Saved the game]
+[13:14:07] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:14:07] [Server thread/WARN]: ggmrbeast moved too quickly! 35.98562786791575,0.0,3.9299341595104806
+[13:14:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2716ms or 54 ticks behind
+[13:14:09] [Server thread/WARN]: ggmrbeast moved too quickly! 15.714877005600272,-1.713744068098066,12.612524501177177
+[13:14:19] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> do gi
+[13:14:23] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> t give lai cho
+[13:14:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> manh vo
+[13:14:30] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> vcl
+[13:14:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> 26 cai
+[13:15:14] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> tan 26 cai a
+[13:15:18] [Async Chat Thread - #2/INFO]: [Not Secure] <ggmrbeast> ghe v
+[13:15:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> dr
+[13:15:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Niran> vua di dapda
+[13:15:50] [Server thread/INFO]: peggy issued server command: /tp Niran
+[13:15:50] [Server thread/INFO]: [peggy: Teleported peggy to Niran]
+[13:15:50] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:00] [Server thread/INFO]: ggmrbeast issued server command: //copy
+[13:16:01] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:03] [Server thread/INFO]: ggmrbeast issued server command: //rotate 90
+[13:16:03] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:06] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:16:07] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:12] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:16:13] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:22] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:16:22] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:28] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:16:28] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:31] [Async Chat Thread - #4/INFO]: [Not Secure] <Niran> xin lai di
+[13:16:33] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:16:33] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:33] [Server thread/INFO]: peggy issued server command: /tp ggmrbeast
+[13:16:33] [Server thread/INFO]: [peggy: Teleported peggy to ggmrbeast]
+[13:16:33] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:41] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:16:41] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:42] [Server thread/INFO]: ggmrbeast issued server command: //rotate 90
+[13:16:42] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:44] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:16:44] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:45] [Server thread/INFO]: peggy issued server command: /tp Niran peggy
+[13:16:45] [Server thread/INFO]: [peggy: Teleported Niran to peggy]
+[13:16:45] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:51] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:16:51] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:53] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:16:53] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:16:55] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:16:55] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:17:01] [Server thread/INFO]: Saved the game
+[13:17:01] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> rong v :v
+[13:17:07] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:17:07] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:08] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:17:08] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:16] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> vcl full set kc r a`
+[13:17:17] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> ghe v
+[13:17:20] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> moi 1 ngay ma
+[13:17:22] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> =)))
+[13:17:28] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:17:29] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:31] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> mine kc nhanh ma
+[13:17:33] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:17:33] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:35] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> à quên mất server tự động save sau mỗi 5 phút mà nhỉ
+[13:17:43] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:17:43] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:43] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> chơi lâu lâu tí
+[13:17:43] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:17:44] [Server thread/INFO]: Saved the game
+[13:17:44] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:52] [Server thread/INFO]: ggmrbeast issued server command: //undoi
+[13:17:54] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:17:54] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:55] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:17:55] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:17:57] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:17:57] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:18:07] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:18:07] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:18:21] [Server thread/INFO]: ggmrbeast issued server command: //undi
+[13:18:22] [Server thread/INFO]: ggmrbeast issued server command: //undo
+[13:18:22] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:18:22] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> có thấy chứ [Server: Saved the game] ko Heo
+[13:18:23] [Server thread/INFO]: ggmrbeast issued server command: //paste
+[13:18:23] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:18:35] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> chữ
+[13:18:44] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> cuoi cung cx xong cai tuong
+[13:18:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> xin li manh vo codai
+[13:19:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4c4d312c-1f9c-3160-9fc6-875e304370b1 timed out
+[13:19:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player ggmrbeast
+[13:19:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to ggmrbeast
+[13:19:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4c4d312c-1f9c-3160-9fc6-875e304370b1
+[13:19:03] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> di dapda tiep
+[13:19:08] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> mảnh vỡ cỏ dại @@
+[13:19:14] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> :v
+[13:19:16] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> ko biet la cai j
+[13:19:22] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> doi ti
+[13:19:40] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> block ha
+[13:19:44] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> ko
+[13:19:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> cai manh nung r
+[13:19:53] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> a r
+[13:19:57] [Server thread/INFO]: peggy issued server command: /gamemode creative Niran
+[13:19:57] [Server thread/INFO]: [peggy: Set Niran's game mode to Creative Mode]
+[13:19:57] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:20:01] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> lay di
+[13:20:09] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> xong cho ve survival =))
+[13:20:13] [Server thread/INFO]: ggmrbeast issued server command: /give Niran minecraft:netherite_scrap 21
+[13:20:13] [Server thread/INFO]: [ggmrbeast: Gave 21 [Netherite Scrap] to Niran]
+[13:20:13] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:20:15] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> ok r
+[13:20:21] [Server thread/INFO]: ggmrbeast issued server command: /gamemode survival Niran
+[13:20:21] [Server thread/INFO]: [ggmrbeast: Set Niran's game mode to Survival Mode]
+[13:20:21] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:20:23] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> r day
+[13:20:27] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> 21 dk
+[13:20:35] [Async Chat Thread - #5/INFO]: [Not Secure] <Niran> 26 :))
+[13:20:38] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> =))
+[13:20:49] [Server thread/INFO]: ggmrbeast issued server command: /give Niran minecraft:netherite_scrap 5
+[13:20:49] [Server thread/INFO]: [ggmrbeast: Gave 5 [Netherite Scrap] to Niran]
+[13:20:49] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:20:59] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> e Chien
+[13:21:08] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> pha may block da tren cao gium di
+[13:21:56] [Server thread/INFO]: peggy issued server command: /save-all
+[13:21:57] [Server thread/INFO]: [peggy: Saved the game]
+[13:21:57] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:22:07] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> block nao
+[13:22:11] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> nay ne
+[13:22:37] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> goi lenh //set air
+[13:22:45] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> no bay lun cai san bay h :))
+[13:22:57] [Server thread/INFO]: peggy issued server command: //set air
+[13:22:57] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:23:10] [Server thread/INFO]: peggy issued server command: //set air
+[13:23:10] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:23:12] [Server thread/INFO]: ggmrbeast issued server command: //set air
+[13:23:12] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:23:18] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> a k bay a`
+[13:23:44] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> hqua go set air cai bay nua cai san =)))
+[13:23:45] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> nen ren
+[13:23:45] [Server thread/INFO]: peggy issued server command: //undo
+[13:23:45] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:23:53] [Server thread/INFO]: ggmrbeast issued server command: //set air
+[13:23:53] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:23:57] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> vc
+[13:24:01] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> dung //wand
+[13:24:07] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> lay ra cai rìu
+[13:24:14] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> bt r
+[13:24:16] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> y la
+[13:24:18] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> chuot trai set vi tri 1, chuot phai vi tri 2
+[13:24:23] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> hqua set sai cho
+[13:24:27] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> xong set air
+[13:24:28] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> bay
+[13:24:32] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> nua san
+[13:24:33] [Async Chat Thread - #5/INFO]: [Not Secure] <ggmrbeast> cay
+[13:24:47] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> có cái lệnh gì fill đầy ấy
+[13:24:57] [Async Chat Thread - #5/INFO]: [Not Secure] <peggy> quên r hôm qua cũng test mà
+[13:25:32] [Server thread/INFO]: peggy issued server command: /save-all
+[13:25:32] [Server thread/INFO]: [peggy: Saved the game]
+[13:25:32] [Server thread/INFO]: Command execution stopped due to limit (executed 1 commands)
+[13:26:38] [Async Chat Thread - #6/INFO]: [Not Secure] <peggy> alo
+[13:26:42] [Async Chat Thread - #6/INFO]: [Not Secure] <peggy> restart server
+[13:26:48] [Async Chat Thread - #6/INFO]: [GriefPrevention] Muted gibberish.
+[13:26:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Niran> ok :))
+[13:26:49] [Async Chat Thread - #6/INFO]: [Not Secure] <peggy> mới cập nhật code =)))

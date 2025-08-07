@@ -69,7 +69,10 @@ item-validation:
   lore-line: 8192
   resolve-selectors-in-books: false
 logging:
-  deobfuscate-stacktraces: true
+  deobfuscate-stacktraces: false
+  ignore-autosave-errors: true
+  log-non-player-command-usage: false
+  log-player-command-usage: false
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
